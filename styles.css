@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-title {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-size: 32px;
+    background: #457B9D;
+    border-radius: 10px;
+}
+
+#hero-subtitle {
+    margin: 0;
+    padding: 5px 26px;
+    font-size: 18px;
+    background: #1D3557;
+    width: 355px;
+    border-radius: 10px;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/park.jpg");
+    background-size: cover;
+    height: 343px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+#top3 {
+    display: flex;
+    justify-content: space-around;
+    background: #F1FAEE;
+    margin-top: 0;
+    color: #1D3557;
+    
+}
+
+#top3-wrapper {
+    background: #F1FAEE;
+    padding: 50px 0 10px; 
+    color: #1D3557;
+    padding-top: 10px;
+  
+}
+
+.img-activity {
+    border-radius: 50%;
+}
+
+#percap {
+    border-radius: 10px;
+    width: 180px;
+    margin-right: 10px;
+}
+
+#guide-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 25px;
+    padding: 20px 0 23px 13px;
+    width: 400px;
+    background: #A8DADC;
+    color: #1D3557;
+    border-radius: 10px; 
+    border-bottom: 5px solid #457B9D;
+}
+
+#perquote {
+    font-style: italic;
+    padding-right: 10px;
+
+}
